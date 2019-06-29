@@ -53,7 +53,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  /*position: fixed;*/
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -120,7 +120,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 10px;
   min-height: calc(100vh - 70px);
 }
 
@@ -215,3 +215,97 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+ 
+  #logo {
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  .main-section {
+    width: 600px;
+    margin-left: 60px;
+    padding-top: 10px;
+  }
+
+  #main-container {
+    padding-bottom: 200px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  nav {
+    margin-right: 30px;
+  }
+
+  .main-section {
+    width: 685px;
+    margin-left: 35px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  #masthead {
+    position: static;
+  }
+
+   #logo {
+    width: 640px;
+    margin: 0;
+  }
+
+  nav {
+    width: 640px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding-left: 90px;
+    text-align: center;
+  }
+
+  .main-section {
+    width: 550px;
+    margin: 35px;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+
+
+}
+
+
+.element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+ 
