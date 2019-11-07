@@ -32,7 +32,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 ### Submission on BCS
 
-* Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
+* Please submit both the deployed Github.io link to your homework AND the link to the Github Repository !
 
 ### Instructions
 
